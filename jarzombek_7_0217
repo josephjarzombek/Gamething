@@ -1,0 +1,22 @@
+What are arrays used for?
+Arrays are used to group variables.
+What is the code for an int array?
+int[] arrayStuff;
+What is the code for an String array?
+String[] arrayStuff;
+What is the code for an boolean array?
+boolean[] arrayStuff;
+What is the code for an double array?
+doulbe[] arrayStuff;
+How would you change the first value of the int array to 42?
+arrayStuff[0] = 42;
+Of the String array to "Bob"?
+arrayStuff[0] = "Bob";
+What does this do: private String[] dessert = new String[3];
+makes a private string for dessert.
+What does this do: private String[] postres = {"rice pudding", "pan dulce", "bunuelos"}
+Makes a private string with the three idetities listed in the curly brackets
+How are they different?
+One has various values assigned to it.
+How would we replace "bunuelos" with "apple pie"?
+private String[] postres = {"rice pudding", "pan dulce", "apple pie"};
