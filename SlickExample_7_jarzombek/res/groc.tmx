@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="100" tilewidth="64" tileheight="64" nextobjectid="1">
+ <tileset firstgid="1" name="tile_1" tilewidth="64" tileheight="64" tilecount="16">
+  <image source="tile_1.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="17" name="tile_2" tilewidth="64" tileheight="64" tilecount="16">
+  <image source="tile_2.png" width="256" height="256"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="bottom" width="50" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+1Z2W7DIBCkbSK1ktPG/f+PLX6IhBAsu+xhas1I8xIlmBnvwZJ7SumN4HvmR+Yt82uSj8zvzJ/MpyG3gsdz7gS5Gh+TlOjbiN/sAy8tNG4CzmrdB355a+TETIufFV86qNheTWNL5z5Y97+Q8s2TyXi92VqqZTJeb7ZeapmM17tdhFF5WNahumZaMCqvvX2Kymtvn6Ly2tsnyV7qOLeglU+ze7PKzzNr3PF8yRlWct6LpKdHVv6c7aFEc3n+5ZyRpbNBlEeSfl7WAI8ZW+ORNta9zy0zmlfL8wifrsqV6vyqfeSgJPbPfqeRWlfm2T5S3s70kJVmU40HK82mGr9Wmk05fvXuv1eaTTl+9fRZ5WjULN/Tx9kjJ1Yj6hml0aqORNQ9zfO5z5TURo+6pq215VojvZY9oN5ba71WXnme57k6qZzXziAWfZwbz5p3OcoTi7sFrofUdzg9ieqnFncLFrWQ05NGcTj6rzzi/Cjtr6O60br3iLjTkv63MDorjDR53WnN1FLu+6Lir9znsUZ9x9f6jOJsz7Piaz2Nhifhpfcc9Vuxp5Mbc5L5InpmkrCXz1FzlJUfAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHAF/AHr0MPOIE4AAA==
+  </data>
+ </layer>
+ <layer name="walls" width="50" height="100">
+  <properties>
+   <property name="blocked" value="true"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2XAQqDMAxF3RHspptj3v+aU3BQSnSttNXE9+CD62rqI1axa5qmXdJVyryWm3Kf8ojIKyKD59Euv1PTCtmaP7v0U54r1xTW+kRkXLkOjdGONY/QJfdYydpb91auMRfE//+WcT1XwWM+fhrwsNAPiRLrHdkPbR6/97Z2Dwv9kNDoYaUf7I9zeUiU9HCR86/aj6P3x7gy/6r9kCjl4RLmX6kf/j159P7I6WGhHxJaPPyxNohmj9/+0O5hoR8SGj2s9EPz/vCfu1b6IaHRo+b7vEuYv8ej99Yq6TEkzD9zP3J9M22Nlaxdw6PW86qv4FHj/fEuVLd2P/7dy1rA41zgcS4seoTPyBi/Peds1dq7Xni8p27qObG1UtaT/LQGAAAAAAAAAAAAAAAAAAAAAAAAwAJfD/IbWCBOAAA=
+  </data>
+ </layer>
+ <layer name="hostiles" width="50" height="100">
+  <properties>
+   <property name="hostile" value="true"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3BMQEAAADCoPVPbQ0PoAAAAAAAAAAAAAAAAAAAAAAAAAB4MAJTL5cgTgAA
+  </data>
+ </layer>
+</map>
